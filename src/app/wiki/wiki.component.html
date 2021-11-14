@@ -1,0 +1,17 @@
+
+  <ion-item *ngIf="wiki" [routerLink]="'/story/' + wiki.id" [detail]="false">
+    <!-- <div slot="start" [class]="!message.read ? 'dot dot-unread' : 'dot'"></div> -->
+    <ion-label class="ion-text-wrap">
+      <h2>
+        {{ wiki.title }}
+        <span class="date">
+          <!-- <ion-note>{{ wiki.date }}</ion-note> -->
+          <ion-icon name="chevron-forward" size="small" *ngIf="isIos()"></ion-icon>
+        </span>
+      </h2>
+      <h3>{{ wiki.subtitle }}</h3>
+      <p>
+        Here is a new story of mine
+      </p>
+    </ion-label>
+    </ion-item>

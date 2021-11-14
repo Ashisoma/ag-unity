@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "AgUnity",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

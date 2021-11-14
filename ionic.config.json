@@ -1,0 +1,8 @@
+{
+  "name": "AgUnity",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "a334c036"
+}
