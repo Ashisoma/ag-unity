@@ -32,7 +32,7 @@ export class ExpenseService {
   /**
    * getById
    */
-  public getById(id) : Expense[id]{
-    return this.expenses.id;
+  public getById(id){
+    //  this.expenses.
   }
 }
